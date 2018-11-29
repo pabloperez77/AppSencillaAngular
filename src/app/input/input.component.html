@@ -3,6 +3,8 @@
     <input type="text"
            name="panel"
            placeholder="¿Que quieres saber?"
-           [(ngModel)]="currentPanel">
+           [(ngModel)]="currentPanel"
+            (input)="makeInitialInterrogation()"
+           (change)="makeLastInterrogation()">
     <button type="submit">Dale!</button>
 </form>
