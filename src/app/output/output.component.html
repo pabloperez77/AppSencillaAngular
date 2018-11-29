@@ -1,5 +1,7 @@
 <div class="Output">
-    <div *ngFor="let response of responses">
+    <div *ngFor="let response of responses; let i= index"
+    class="{{i === 0 ? 'last': ''}} record {{response.answer.type}}">
         <div class="panel">{{response.panel}}</div>
+        <div class="answer">{{response.answer.text}}</div>
     </div>
 </div>

@@ -2,13 +2,13 @@
     min-height: 100vh;
     flex-direction: column;
     font-size: xx-large;
-    color: white;
+    color: black;
     text-align: center;
-    background-color: lightskyblue;
+    background-color: white;
 }
 
 .App {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }

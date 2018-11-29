@@ -1,3 +1,29 @@
 .Output .panel {
     font-size: .6em
 }
+.Output {
+    color: dodgerblue;
+    align-items: center;
+}
+.Output .afirmative {
+    border-left: 3px solid green
+}
+
+.Output .doubt {
+    border-left: 3px solid orange
+}
+
+.Output .negative {
+    border-left: 3px solid red
+}
+.Output .record {
+    padding: .3em;
+    margin: 0 20px .5em;
+    text-align: left;
+    font-size: .8em
+}
+
+.Output .last {
+    font-size: 1.4em;
+    background: hsla(0, 0%, 100%, .05)
+}

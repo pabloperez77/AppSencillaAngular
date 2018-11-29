@@ -7,23 +7,23 @@
 .Input * {
     margin: .5em
 }
-/*.Input :focus {
-    outline: 5px auto #fff !important
+.Input :focus {
+    outline: 5px auto black !important
 }
 .Input input {
     background: transparent;
     font-size: 1.4em;
     text-align: center;
     width: 70vw;
-    outline: 5px auto #639
+    outline: 5px auto black;
 }
 .Input button,
 .Input input {
     border: none;
-    color: #fff;
+    color: black;
     padding: .5em
 }
 .Input button {
     font-size: 1.2em;
-    background: #639
-}*/
+    background: dodgerblue;
+}
