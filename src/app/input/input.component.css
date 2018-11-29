@@ -10,20 +10,25 @@
 .Input :focus {
     outline: 5px auto black !important
 }
+.Input ::placeholder{
+    color: #a05000;
+}
 .Input input {
-    background: transparent;
+    background: #f5deb3;
+    color: #a05000;
     font-size: 1.4em;
     text-align: center;
     width: 70vw;
-    outline: 5px auto black;
+    outline: 5px auto #a05000;
 }
 .Input button,
 .Input input {
     border: none;
-    color: black;
     padding: .5em
 }
 .Input button {
     font-size: 1.2em;
-    background: dodgerblue;
+    background: #f5deb3;
+    outline: 5px auto #a05000;
+    color: #a05000;
 }

@@ -2,8 +2,8 @@
     font-size: .6em
 }
 .Output {
-    color: dodgerblue;
     align-items: center;
+    color: black;
 }
 .Output .afirmative {
     border-left: 3px solid green
